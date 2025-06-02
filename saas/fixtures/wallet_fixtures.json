@@ -1,0 +1,142 @@
+{
+    "Wallet": [
+        {
+            "name": "admin@gmail.com",
+            "creation": "2025-05-31T11:45:46.148075",
+            "modified": "2025-05-31T12:12:38.141304",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 0,
+            "_user_tags": null,
+            "_comments": null,
+            "_assign": null,
+            "_liked_by": null,
+            "user": "admin@gmail.com",
+            "balance": 2901.0,
+            "last_transaction": "2025-05-31T12:12:19.137969"
+        }
+    ],
+    "Wallet Transaction": [
+        {
+            "name": "rn4v6juse8",
+            "creation": "2025-05-31T11:45:46.148075",
+            "modified": "2025-05-31T12:12:38.141304",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 1,
+            "parent": "admin@gmail.com",
+            "parentfield": "wallet_transactions",
+            "parenttype": "Wallet",
+            "amount": 5000.0,
+            "description": "Top-Up",
+            "date": "2025-05-31T12:11:52.403036"
+        },
+        {
+            "name": "rvf9s9lkuv",
+            "creation": "2025-05-31T11:45:46.148075",
+            "modified": "2025-05-31T12:12:38.141304",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 2,
+            "parent": "admin@gmail.com",
+            "parentfield": "wallet_transactions",
+            "parenttype": "Wallet",
+            "amount": -100.0,
+            "description": "Deduction",
+            "date": "2025-05-31T12:12:19.137871"
+        },
+        {
+            "name": "s5dbdi1ho7",
+            "creation": "2025-05-31T11:45:46.148075",
+            "modified": "2025-05-31T12:12:38.141304",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 3,
+            "parent": "admin@gmail.com",
+            "parentfield": "wallet_transactions",
+            "parenttype": "Wallet",
+            "amount": 1999.0,
+            "description": "Subscribed to Pro",
+            "date": "2025-05-31T12:12:38.140074"
+        }
+    ],
+    "My Subscription": [
+        {
+            "name": "admin@gmail.com",
+            "creation": "2025-05-31T12:12:38.159637",
+            "modified": "2025-05-31T12:12:38.159637",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 0,
+            "_user_tags": null,
+            "_comments": null,
+            "_assign": null,
+            "_liked_by": null,
+            "user": "admin@gmail.com",
+            "subscription_plan": "2",
+            "plan_name": "Pro",
+            "start_date": "2025-05-31",
+            "end_date": "2025-07-30",
+            "status": "Active",
+            "price": 1999.0
+        }
+    ],
+    "All Subscription Plans": [
+        {
+            "name": 3,
+            "creation": "2025-05-31T00:29:20.222957",
+            "modified": "2025-05-31T00:29:20.222957",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 0,
+            "_user_tags": null,
+            "_comments": null,
+            "_assign": null,
+            "_liked_by": null,
+            "plan_name": "Enterprise",
+            "price": 2999.0,
+            "duration_days": 90,
+            "description": "Enterprise Plan"
+        },
+        {
+            "name": 2,
+            "creation": "2025-05-31T00:28:52.622815",
+            "modified": "2025-05-31T00:28:52.622815",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 0,
+            "_user_tags": null,
+            "_comments": null,
+            "_assign": null,
+            "_liked_by": null,
+            "plan_name": "Pro",
+            "price": 1999.0,
+            "duration_days": 60,
+            "description": "Pro Plan"
+        },
+        {
+            "name": 1,
+            "creation": "2025-05-31T00:28:20.838470",
+            "modified": "2025-05-31T00:28:20.838470",
+            "modified_by": "admin@gmail.com",
+            "owner": "admin@gmail.com",
+            "docstatus": 0,
+            "idx": 0,
+            "_user_tags": null,
+            "_comments": null,
+            "_assign": null,
+            "_liked_by": null,
+            "plan_name": "Basic",
+            "price": 999.0,
+            "duration_days": 30,
+            "description": "Basic Plan"
+        }
+    ]
+}
